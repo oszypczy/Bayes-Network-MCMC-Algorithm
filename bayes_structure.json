@@ -1,0 +1,22 @@
+{
+    "Magda Calls": {
+        "Parents": ["Alarm"],
+        "Children": []
+    },
+    "Burglary": {
+        "Parents": [],
+        "Children": ["Alarm"]
+    },
+    "Alarm": {
+        "Parents": ["Burglary", "Earthquake"],
+        "Children": ["John Calls", "Magda Calls"]
+    },
+    "John Calls": {
+        "Parents": ["Alarm"],
+        "Children": []
+    },
+    "Earthquake": {
+        "Parents": [],
+        "Children": ["Alarm"]
+    }
+}
